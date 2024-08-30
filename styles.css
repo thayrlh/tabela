@@ -1,0 +1,136 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+  }
+ 
+ 
+  h1 {
+    margin-bottom: 20px;
+  }
+ 
+ 
+  .tabela-periodica {
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 800px;
+  }
+ 
+ 
+  .tabela-periodica td {
+    width: 60px;
+    height: 80px;
+    border: 1px solid #ccc;
+    text-align: center;
+    vertical-align: middle;
+    padding: 5px;
+    position: relative;
+  }
+ 
+ 
+  .elemento {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+ 
+ 
+  .numero {
+    font-size: 0.8em;
+    color: #666;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+  }
+ 
+ 
+  .simbolo {
+    font-size: 1.5em;
+    font-weight: bold;
+  }
+ 
+ 
+  .nome {
+    font-size: 0.8em;
+    color: #333;
+    margin-top: 5px;
+  }
+ 
+ 
+  /* Estilos específicos para os elementos */
+  .h {
+    background-color: #f1504d;
+  }
+ 
+  .li {
+    background-color: #90ee90;
+  }
+  .be {
+    background-color: #ffd700;
+  }
+  .b {
+    background-color: #ffa500;
+  }
+  
+  .na{
+    background-color: #90ee90;
+  }
+  .mg{
+    background-color: #ffd700;
+  }
+  .al{
+    background-color: #7b7a7f;
+  }
+  .si{
+    background-color: #ffa500;
+  }
+  .k{
+    background-color: #90ee90;
+  }
+  .rb{
+    background-color: #90ee90;
+  }
+  .cs{
+    background-color: #90ee90;
+  }
+  .fr{
+    background-color: #90ee90;
+  }
+  .la{
+    background-color: #90ee90;
+  }
+ 
+  .roxo{
+    background-color: #9b73fa;
+  }
+  .cinza{
+    background-color: #7b7a7f;
+  }
+  .verde{
+    background-color: #64b773cc;
+  }
+  .laranja{
+    background-color: #ffa500;
+  }
+  .amarelo{
+    background-color: #ffd700;
+  }
+  .azul{
+    background-color: #afeeee;
+  }
+  .lilas{
+    background-color: #beade6; 
+  }
+  .cor{
+    background-color: #ffcccb;
+  }
+  .ciano{
+    background-color: #08e6e6;
+  }
+  .pink{
+    background-color: #f629b9cc;
+  }
